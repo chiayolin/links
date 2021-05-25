@@ -1,0 +1,39 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: .9rem;
+  color: #1d1d1f;
+}
+
+
+main {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+footer {
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+code {
+  font-size: .86rem;
+}
+
+.title {
+  margin: 20px auto;
+}
+
+.info {
+  display: block; /* be explicit */
+  margin-bottom: 20px;
+}
+
+.pull-right {
+  float: right;
+}
