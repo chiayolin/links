@@ -5,33 +5,58 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  font-size: .9rem;
+  line-height: 1.2;
+  font-size: .85rem;
   color: #1d1d1f;
 }
-
 
 main {
   max-width: 30rem;
   margin: 0 auto;
-  padding: 0 5px;
+  padding: 0 10px;
+
+}
+
+main h1, main h2 {
+  margin-bottom: .25rem;
+  font-family: "JetBrains Mono NL", monospace;
+  font-weight: 400;
+  color: #86868b;
+}
+
+main h1 {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+}
+
+main h2 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+
+main p {
+  margin-bottom: 1rem;
+}
+
+main a {
+  color: rgb(95, 119, 215);
+}
+
+main ul li {
+  margin-left: 2rem;
+  margin-bottom: .12rem;
+  list-style-type: square;
 }
 
 footer {
-  margin: 20px auto;
-  padding-bottom: 20px;
-}
+  margin: 0 auto;
+  max-width: 30rem;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
 
-code {
-  font-size: .86rem;
-}
-
-.title {
-  margin: 20px auto;
-}
-
-.info {
-  display: block; /* be explicit */
-  margin-bottom: 20px;
+  text-align: center;
+  font-size: .75rem;
 }
 
 .pull-right {
