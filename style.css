@@ -1,64 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
 * {
  margin: 0;
  padding: 0;
 }
 
+html, body {
+   height: 100%;
+}
+
 body {
-  font-family: Helvetica, sans-serif;
-  line-height: 1.2;
-  font-size: .85rem;
-  color: #1d1d1f;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #303030;
 }
 
 main {
-  max-width: 30rem;
-  margin: 0 auto;
-  padding: 0 10px;
-
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-main h1, main h2 {
-  margin-bottom: .25rem;
-  font-family: "JetBrains Mono NL", monospace;
-  font-weight: 400;
-  color: #86868b;
+main .center-them {
+  display: flex-item;
+  text-align: center;
+  width: auto;
+  margin: 1rem;
 }
 
-main h1 {
-  margin-top: 2rem;
-  font-size: 1.7rem;
-}
-
-main h2 {
-  margin-top: 1.5rem;
-  font-size: 1.1rem;
-}
-
-
-main p {
+main .big-name {
   margin-bottom: 1rem;
 }
 
-main a {
-  color: rgb(95, 119, 215);
+main .big-name h1 {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 1.5rem;
 }
 
-main ul li {
-  margin-left: 2rem;
-  margin-bottom: .12rem;
-  list-style-type: square;
+main .place {
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+}
+
+main .links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+main .links .link {
+  display: flex-item;
+}
+
+@media screen and (max-width: 25rem) {
+  main .links {
+    flex-direction: column;
+  }
 }
 
 footer {
-  margin: 0 auto;
-  max-width: 30rem;
-  margin-top: 4rem;
-  padding-bottom: 2rem;
-
   text-align: center;
-  font-size: .75rem;
+}
+
+a {
+  color: #06c;
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .pull-right {
   float: right;
 }
+
+::selection, ::-moz-selection {
+  background: #ffc;
+}
+
