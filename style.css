@@ -10,19 +10,19 @@ html, body {
 }
 
 body {
-  font-family:
-    -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-    'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+  'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   color: #303030;
 }
 
 main {
-  height: 90%;
+  min-height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 main .center-them {
@@ -69,13 +69,9 @@ main .links a:hover {
   color: #fff;
 }
 
-@media screen and (max-width: 25rem) {
-  main .links {
-    flex-direction: column;
-  }
-}
-
 footer {
+  height: 2.5rem;
+  line-height: 1.25rem;
   text-align: center;
 }
 
