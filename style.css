@@ -84,7 +84,7 @@ a {
   float: right;
 }
 
-::selection, ::-moz-selection {
+::selection, ::-moz-selection, ::-webkit-selection {
   background: #ffc;
 }
 
