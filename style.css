@@ -69,6 +69,7 @@ main .links a:hover {
   color: #fff;
 }
 
+
 footer {
   height: 2.5rem;
   line-height: 1.25rem;
@@ -78,15 +79,6 @@ footer {
 a {
   color: #0071e3;
   text-decoration: inherit;
-}
-
-a:focus {
-  background: red;
-  outline: none;
-}
-
-a:active {
-  background: red;
 }
 
 ::selection {
