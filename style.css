@@ -81,7 +81,7 @@ a {
 }
 
 a:focus {
-  background: inherit;
+  background: red;
   outline: none;
 }
 
