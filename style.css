@@ -85,6 +85,10 @@ a:focus {
   outline: none;
 }
 
+a:active {
+  background: red;
+}
+
 ::selection {
   background: #ffc;
   color: #303030;
