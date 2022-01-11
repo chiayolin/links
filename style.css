@@ -80,6 +80,10 @@ a {
   text-decoration: inherit;
 }
 
+a:focus {
+  outline: none;
+}
+
 ::selection {
   background: #ffc;
   color: #303030;
